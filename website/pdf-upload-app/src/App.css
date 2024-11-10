@@ -5,6 +5,10 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  background-image: url('image5.png'); /* Replace with the correct path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .login-container, .upload-container {
@@ -14,6 +18,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
+  background-color: rgba(255, 255, 255, 0.9); /* Add a slight background color for better readability */
 }
 
 input[type="text"], input[type="password"], input[type="file"] {
